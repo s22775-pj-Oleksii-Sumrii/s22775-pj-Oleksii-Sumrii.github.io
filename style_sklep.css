@@ -1,0 +1,129 @@
+.body_lab {
+    display: flexbox;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("NBIBM82XT003JPB_5M2W11H-1.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    font-family:  Georgia, serif;
+}
+.body_tel {
+    display: flexbox;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("365122980.webp");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    font-family:  Georgia, serif;
+}
+.body_kom {
+    display: flexbox;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("fdf.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    font-family:  Georgia, serif;
+}
+.body_first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("6611858316.jpg");
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+
+#products {
+    display: flex;
+    height: 950px;
+    width: 1500px;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.product {
+    display: flexbox;
+    height: 420px;
+    width: 430px;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 0px;
+    text-align: center; 
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+}
+
+.prod{
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+#cart {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+#total {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background-size: cover;
+}
+
+.circle:hover {
+    transform: scale(1.2);
+}       
+#laptopy{
+    background-image: url("mobilna-stacja-robocza-zbook-fury-g-RNHPDB96IFWD024-0.jpeg");
+}
+#telefony{
+    background-image: url("images.jpg");
+}
+#komputery{
+    background-image: url("images (1).jpg");
+}
+
+.circle:hover {
+    background-color: #2980b9;
+}
+.name-text {
+    text-align: center;
+    margin-top: 350px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgba(35, 12, 88, 0.753);
+    box-sizing: border-box;
+    width: min-content;
+    color: white;
+    pointer-events: none;
+    position: absolute;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_sklep.css">
+    <title>Telefony</title>
+    </head>
+    <body class="body_tel">
+    <section id="products">
+        <div class="product" id="pr1">
+            <h3 class="prod">Smartfon Apple iPhone 15 Pro Max 256GB</h3>
+            <img src="365122980.webp" width="300" height="250">
+            <p>$100.00</p>
+            <button onclick="addToCart(13)">Dodaj do koszyka</button>
+        </div>
+        <div class="product" id="pr2">
+            <h3 class="prod">Smartfon Xiaomi Redmi Note 12 Pro</h3>
+            <img src="320064650.webp" width="300" height="250">
+            <p>$50.00</p>
+            <button onclick="addToCart(14)">Dodaj do koszyka</button>
+        </div>
+        <div class="product" id="pr3">
+            <h3 class="prod">Smartfon Samsung Galaxy S23</h3>
+            <img src="334321790.webp" width="300" height="250">
+            <p>$70.00</p>
+            <button onclick="addToCart(15)">Dodaj do koszyka</button>
+        </div>
+        <div class="product" id="pr4">
+            <h3 class="prod">Smartfon Motorola Razr 40 Ultra 8/256GB</h3>
+            <img src="380201158.webp" width="300" height="250">
+            <p>$95.00</p>
+            <button onclick="addToCart(16)">Dodaj do koszyka</button>
+        </div>
+        <div class="product" id="pr5">
+            <h3 class="prod">Smartfon Blackview BV8800 8/128GB DualSim</h3>
+            <img src="390800150.webp" width="300" height="250">
+            <p>$75.99</p>
+            <button onclick="addToCart(17)">Dodaj do koszyka</button>
+        </div>
+        <div class="product" id="pr6">
+            <h3 class="prod">Smartfon Oukitel WP21 Ultra 12GB/256GB</h3>
+            <img src="351223227.webp" width="300" height="250">
+            <p>$63.90</p>
+            <button onclick="addToCart(18)" >Dodaj do koszyka</button>
+        </div>
+    </section>
+    
+    <div id="cart" class="cart">
+        <h2>Koszyk</h2>
+    </div>
+    
+    <div id="total">Suma: $0.00</div>
+    <script src="mech_sklep.js"></script>
+    <br>
+    <button onclick="buy()">Zakup</button>
+    <button onclick="cancel()">Rezagnacja</button>
+    <button onclick="clearCart()">Wyciść</button>
+</body>
+</html>

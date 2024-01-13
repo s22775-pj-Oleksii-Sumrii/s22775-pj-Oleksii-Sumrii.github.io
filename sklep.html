@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_sklep.css">
+    <title>Laptopy</title>
+</head>
+<body class="body_lab">
+    <section id="products">
+        <div class="product" id="pr1">
+            <h3 class="prod">Fujitsu LifeBook E756</h3>
+            <img src="fuji-lifebook-e756-001.jpg" width="300" height="250">
+            <p>$100.00</p>
+            <button onclick="addToCart(1)">Dodaj do koszyka</button>
+        </div>
+        <div class="product" id="pr2">
+            <h3 class="prod">Fujitsu-Siemens Lifebook E751</h3>
+            <img src="poleasingowe-laptopy-z-matryca-156-cala-fujitsu-siemens-lifebook-e751-01.jpg" width="300" height="250">
+            <p>$150.00</p>
+            <button onclick="addToCart(2)">Dodaj do koszyka</button>
+        </div>
+        <div class="product" id="pr3">
+            <h3 class="prod">Lenovo LOQ 15 Ryzen 5 7640HS</h3>
+            <img src="NBIBM82XT003JPB_5M2W11H-1.jpg" width="300" height="250">
+            <p>$200.00</p>
+            <button onclick="addToCart(3)">Dodaj do koszyka</button>
+        </div>
+        <div class="product" id="pr4">
+            <h3 class="prod">DELL Inspiron G15 5530</h3>
+            <img src="LTI15DEL5530-8522-1.jpg" width="300" height="250">
+            <p>$250.00</p>
+            <button onclick="addToCart(4)">Dodaj do koszyka</button>
+        </div>
+        <div class="product" id="pr5">
+            <h3 class="prod">MSI GF63 12UC-1045XPL</h3>
+            <img src="NBMSIGF6312UC-1045XPL-1.jpg" width="300" height="250">
+            <p>$199.99</p>
+            <button onclick="addToCart(5)">Dodaj do koszyka</button>
+        </div>
+        <div class="product" id="pr6">
+            <h3 class="prod">ZBOOK FURY G10/W11P I7-13700</h3>
+            <img src="mobilna-stacja-robocza-zbook-fury-g-RNHPDB96IFWD024-0.jpeg" width="300" height="250">
+            <p>$224.90</p>
+            <button onclick="addToCart(6)" >Dodaj do koszyka</button>
+        </div>
+    </section>
+    
+    <div id="cart" class="cart">
+        <h2>Koszyk</h2>
+    </div>
+    
+    <div id="total">Suma: $0.00</div>
+    <script src="mech_sklep.js"></script>
+    <br>
+    <button onclick="buy()">Zakup</button>
+    <button onclick="cancel()">Rezagnacja</button>
+    <button onclick="clearCart()">Wyciść</button>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_sklep.css">
+    <title>Komputery</title>
+</head>
+    <body class="body_kom">
+    <section id="products">
+        <div class="product" id="pr1">
+            <h3 class="prod">HP PAVILION 24-CB1022NW</h3>
+            <img src="all-in-one-hp-pavilion-24-cb1022nw-6k0z9ea-amd-ryzen-5-8gb-ssd-512gb-amd-ryzen-fullhd-win-11-bialy.jpg" width="300" height="250">
+            <p>$500.00</p>
+            <button onclick="addToCart(7)">Dodaj do koszyka</button>
+        </div>
+        <div class="product" id="pr2">
+            <h3 class="prod">KOMPUTER GAMINGOWY HP 40L</h3>
+            <img src="komputer-gamingowy-hp-40l.jpg" width="300" height="250">
+            <p>$549.00</p>
+            <button onclick="addToCart(8)">Dodaj do koszyka</button>
+        </div>
+        <div class="product" id="pr3">
+            <h3 class="prod">KOMPUTER LENOVO IDEACENTRE GAMING 5 </h3>
+            <img src="komputer-hp-pavilion-desktop-tp01-2063ur-5d2g1ea-intel-i5-16gb-ssd-512gb-nvidia-rtx-3060-win-11-srebrny.jpg" width="300" height="250">
+            <p>$459.00</p>
+            <button onclick="addToCart(9)">Dodaj do koszyka</button>
+        </div>
+        <div class="product" id="pr4">
+            <h3 class="prod">HP VICTUS 15L KOMPUTER GAMINGOWY TG02-0583NW</h3>
+            <img src="hp-victus-15l-stacjonarny-komputer-gamingowy-tg02-0851nw-691k6ea-amd-ryzen-5-8gb-ssd-512gb-nvidia-gtx1650-win-11-czarny.jpg" width="300" height="250">
+            <p>$511.00</p>
+            <button onclick="addToCart(10)">Dodaj do koszyka</button>
+        </div>
+        <div class="product" id="pr5">
+            <h3 class="prod">Komputer ACER Nitro N50-640 i5-12400F</h3>
+            <img src="Komputer-ACER-Nitro-N50-640-01.jpg" width="300" height="250">
+            <p>$532.99</p>
+            <button onclick="addToCart(11)">Dodaj do koszyka</button>
+        </div>
+        <div class="product" id="pr6">
+            <h3 class="prod">KOMPUTER DO GIER CORE i7 RADEON RX 16GB </h3>
+            <img src="fdf.jpg" width="300" height="250">
+            <p>$544.90</p>
+            <button onclick="addToCart(12)" >Dodaj do koszyka</button>
+        </div>
+    </section>
+    
+    <div id="cart" class="cart">
+        <h2>Koszyk</h2>
+    </div>
+    
+    <div id="total">Suma: $0.00</div>
+    <script src="mech_sklep.js"></script>
+    <br>
+    <button onclick="buy()">Zakup</button>
+    <button onclick="cancel()">Rezagnacja</button>
+    <button onclick="clearCart()">Wyciść</button>
+</body>
+</html>
